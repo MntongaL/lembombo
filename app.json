@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Sheep Farm",
+    "slug": "sheep-farm-mobile",
+    "version": "1.0.0",
+    "scheme": "sheepfarm",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-secure-store"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.sheepfarm"
+    },
+    "android": {
+      "package": "com.example.sheepfarm"
+    }
+  }
+}
